@@ -72,6 +72,6 @@ namespace PRG2781
             lblTotalStudents.Text = $"Total Students: {TotalStudents_1}";
             lblAverageAge.Text = $"Average Age: {AverageAge_1}";
         }
-
+        //Test
     }
 }
