@@ -20,7 +20,7 @@ namespace PRG2781
                 KryptonMessageBox.Show("All fields are required and age must be a number.");
                 return;
             }
-
+            //test
             StudentRecord = $"{txtID.Text},{txtName.Text},{age},{txtCourse.Text}";
             this.DialogResult = DialogResult.OK;
             this.Close();
