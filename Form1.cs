@@ -116,7 +116,7 @@ namespace PRG2781
                 }
             }
         }
-
+        //test
         private void DeleteStudentRecord(string studentID)
         {
             var records = File.ReadAllLines("students.txt").Where(line => !line.StartsWith(studentID + ",")).ToList();
