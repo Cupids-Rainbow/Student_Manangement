@@ -62,6 +62,8 @@ namespace PRG2781
             this.ClientSize = new System.Drawing.Size(400, 300);
 
             this.ResumeLayout(false);
+
+            //test
         }
     }
 }
